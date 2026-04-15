@@ -428,4 +428,4 @@ Desenvolvedor Backend Java | Spring Boot
 ### 📬  Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/albert-backend-java-spring-boot/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:albertinesilva.17@gmail.com?subject=Contato%20profissional&body=Olá%20Albert,%0D%0A%0D%0AEncontrei%20seu%20perfil/projeto%20e%20gostaria%20de%20entrar%20em%20contato.%0D%0A%0D%0APoderia%20me%20retornar%20quando%20possível?%0D%0A%0D%0AAtenciosamente,)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:albertinesilva.17@gmail.com?subject=Contato%20profissional&body=Olá%20Albert,%0D%0A%0D%0AEncontrei%20seu%20perfil/GitHub%20e%20gostaria%20de%20entrar%20em%20contato.%0D%0A%0D%0APoderia%20me%20retornar%20quando%20possível?%0D%0A%0D%0AAtenciosamente,)
