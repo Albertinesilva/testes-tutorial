@@ -1,4 +1,4 @@
-# 🧪 Testes Automatizados no Backend com Java e Spring Boot
+## 🧪 Testes Automatizados no Backend com Java e Spring Boot
 
 Este repositório consolida o aprendizado prático em **testes automatizados no backend**, evoluindo desde fundamentos com Java puro até a aplicação em uma arquitetura real utilizando **Spring Boot**.
 
@@ -6,9 +6,9 @@ Mais do que validar código, o foco está em compreender **como projetar softwar
 
 ---
 
-# 📚 Estrutura do Repositório
+## 📚 Estrutura do Repositório
 
-## 🔹 `aula-junit` — Fundamentos com Java puro
+### 🔹 `aula-junit` — Fundamentos com Java puro
 
 Projeto voltado para o entendimento dos conceitos essenciais de testes unitários com **JUnit 5**, sem abstrações de frameworks.
 
@@ -21,7 +21,7 @@ Foco em:
 
 ---
 
-## 🔹 `dscatalog` — Testes em aplicação Spring Boot
+### 🔹 `dscatalog` — Testes em aplicação Spring Boot
 
 Projeto baseado em uma API REST com arquitetura em camadas.
 
@@ -34,7 +34,7 @@ Foco em:
 
 ---
 
-# 🧠 Fundamentos de Testes Automatizados
+## 🧠 Fundamentos de Testes Automatizados
 
 ## 🔍 Tipos de Testes
 
@@ -74,7 +74,7 @@ Validam o comportamento do sistema do ponto de vista do usuário.
 
 ---
 
-# 🔄 TDD — Test Driven Development
+## 🔄 TDD — Test Driven Development
 
 O TDD é uma abordagem onde o desenvolvimento é guiado pelos testes.
 
@@ -133,9 +133,9 @@ Agora você melhora o código:
 
 ---
 
-# 🧩 Boas Práticas e Padrões
+## 🧩 Boas Práticas e Padrões
 
-## 📌 Nomenclatura de testes
+### 📌 Nomenclatura de testes
 
 Um teste deve ser legível como uma frase.
 
@@ -220,13 +220,13 @@ Evitar:
 
 ---
 
-# 🧠 SOLID — Inversão de Dependência (explicado na prática)
+## 🧠 SOLID — Inversão de Dependência (explicado na prática)
 
 Para escrever bons testes unitários, é essencial conseguir **isolar a classe que está sendo testada**.
 
 ---
 
-## ❌ Problema (alto acoplamento)
+### ❌ Problema (alto acoplamento)
 
 ```java
 public class OrderService {
@@ -246,7 +246,7 @@ public class OrderService {
 
 ---
 
-## ✅ Solução (Inversão de Dependência)
+### ✅ Solução (Inversão de Dependência)
 
 ```java
 public class OrderService {
@@ -265,7 +265,7 @@ public class OrderService {
 
 ---
 
-## 🧪 Agora no teste:
+### 🧪 Agora no teste:
 
 ```java
 @Mock
@@ -295,11 +295,11 @@ when(paymentService.pay()).thenReturn(true);
 
 ---
 
-# ⚙️ JUnit 5
+## ⚙️ JUnit 5
 
 Framework principal para testes.
 
-## 🔹 Recursos utilizados
+### 🔹 Recursos utilizados
 
 ```java
 @Test
@@ -316,9 +316,9 @@ Assertions.assertThrows(Exception.class, () -> {
 
 ---
 
-# 🧱 Testes em Aplicações Spring Boot
+## 🧱 Testes em Aplicações Spring Boot
 
-## 🗄️ Repository
+### 🗄️ Repository
 
 * Testa acesso ao banco
 * Usa `@DataJpaTest`
@@ -349,11 +349,11 @@ Assertions.assertThrows(Exception.class, () -> {
 
 ---
 
-# 🎭 Mockito
+## 🎭 Mockito
 
 Utilizado para simular dependências.
 
-## 🔹 Exemplo
+### 🔹 Exemplo
 
 ```java
 when(service.findById(1L)).thenReturn(product);
@@ -374,7 +374,7 @@ verify(repository).save(entity);
 
 ---
 
-# 🧱 Fixtures
+## 🧱 Fixtures
 
 Evita repetição nos testes:
 
@@ -383,7 +383,7 @@ Evita repetição nos testes:
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * Java
 * JUnit 5
@@ -394,7 +394,7 @@ Evita repetição nos testes:
 
 ---
 
-# 🚀 Aplicação no Mercado
+## 🚀 Aplicação no Mercado
 
 Os conceitos aplicados aqui refletem práticas reais de desenvolvimento backend:
 
@@ -408,7 +408,7 @@ Os conceitos aplicados aqui refletem práticas reais de desenvolvimento backend:
 
 ---
 
-# 🎯 Conclusão
+## 🎯 Conclusão
 
 Este projeto representa a evolução de:
 
